@@ -1,0 +1,64 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "text": "Believe in yourself and all that you are.",
+      "author": "Christian D. Larson",
+      "category": "motivational"
+    },
+    {
+      "id": 2,
+      "text": "Every moment is a fresh beginning.",
+      "author": "T.S. Eliot",
+      "category": "motivational"
+    },
+    {
+      "id": 3,
+      "text": "I'm writing a book. I've got the page numbers done.",
+      "author": "Steven Wright",
+      "category": "funny"
+    },
+    {
+      "id": 4,
+      "text": "A clear conscience is a sure sign of a bad memory.",
+      "author": "Mark Twain",
+      "category": "funny"
+    },
+    {
+      "id": 5,
+      "text": "Life is what happens when you're busy making other plans.",
+      "author": "John Lennon",
+      "category": "life"
+    },
+    {
+      "id": 6,
+      "text": "The purpose of life is not to be happy. It is to be useful.",
+      "author": "Ralph Waldo Emerson",
+      "category": "life"
+    },
+    {
+      "id": 7,
+      "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+      "author": "Winston Churchill",
+      "category": "motivational"
+    },
+    {
+      "id": 8,
+      "text": "I have not failed. I've just found 10,000 ways that won't work.",
+      "author": "Thomas A. Edison",
+      "category": "motivational"
+    },
+    {
+      "id": 9,
+      "text": "Why do programmers prefer dark mode? Light attracts bugs.",
+      "author": "Anonymous",
+      "category": "funny"
+    },
+    {
+      "id": 10,
+      "text": "Life is like a box of chocolates. You never know what you're gonna get.",
+      "author": "Forrest Gump",
+      "category": "life"
+    }
+  ]
+}

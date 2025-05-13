@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <button id="theme-toggle">🌙</button>
+
+  <div class="quote-box">
+    <h2>Quote of the Moment</h2>
+
+    <div class="category-section">
+      <label for="category-select">Choose a Category:</label>
+      <select id="category-select">
+        <option value="all">All Categories</option>
+        <option value="motivational">Motivational</option>
+        <option value="funny">Funny</option>
+        <option value="life">Life</option>
+      </select>
+    </div>
+
+    <div class="timer-section">
+      <label for="auto-rotate">
+        <input type="checkbox" id="auto-rotate"> Auto-rotate quotes
+      </label>
+      <select id="rotation-interval" disabled>
+        <option value="10">Every 10 seconds</option>
+        <option value="30">Every 30 seconds</option>
+        <option value="60">Every minute</option>
+        <option value="300">Every 5 minutes</option>
+      </select>
+    </div>
+
+    <div class="search-section">
+      <input type="text" id="search-input" placeholder="Search quotes...">
+      <button id="search-btn">Search</button>
+    </div>
+
+    <div>
+      <p id="quote"></p>
+      <span id="author"></span>
+    </div>
+
+    <div class="inspire-text">
+      <p>Click the button to get inspired!</p>
+    </div>
+
+    <div>
+      <button id="favorite-btn">❤️ Save to Favorites</button>
+      <button id="new-quote-btn">New Quote</button>
+    </div>
+
+    <div class="share-buttons">
+      <button class="share-btn" id="twitter-btn">Share on Twitter</button>
+      <button class="share-btn" id="facebook-btn">Share on Facebook</button>
+    </div>
+  </div>
+
+  <div class="favorites-section">
+    <h3>Favorite Quotes</h3>
+    <ul id="favorites-list"></ul>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
